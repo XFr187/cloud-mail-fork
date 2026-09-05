@@ -35,12 +35,9 @@ run_worker_first = true
 crons = ["0 * * * *"]
 
 [vars]
-#ai_model = ""
-#analysis_cache = false
-#orm_log = false
-#domain = []
-#admin = ""
-#jwt_secret = ""
+domain = ["xxbeimc.de5.net"]
+admin = "LemonX_Studio@xxbeimc.de5.net"
+jwt_secret = "xxbeimc9396"
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
